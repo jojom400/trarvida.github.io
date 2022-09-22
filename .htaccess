@@ -1,9 +1,30 @@
-# BEGIN WordPress
-<IfModule mod_rewrite.c>
+Options -Indexes
+
+# enable mod_rewrite
 RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
-</IfModule>
+ 
+# RewriteCond = define rule condition
+# HTTP_REFERER = check from where the request originated
+# ! = exclude
+# ^ = start of string
+# [NC] = case insensitive search
+RewriteCond %{HTTP_REFERER} !^https://myflixmovies.blogspot.com/ [NC]
+ 
+# \ = match any
+# . = any character
+# () = pattern, group
+# $ = end of string
+ 
+# [F] = forbidden, 403
+# [L] = stop processing further rules
+RewriteRule \.(gif|jpg|jpeg|php|mp4|.htaccess|mov|mkv|flv)$ - [F,L]
+
+
+#Quitando todo seguimiento a los archivos SQL
+taccess
+<FilesMatch "\.htaccess">
+
+    Order allow,deny
+    Deny from all
+
+</FilesMatch>
