@@ -17,7 +17,7 @@ RewriteCond %{HTTP_REFERER} !^https://myflixmovies.blogspot.com/ [NC]
  
 # [F] = forbidden, 403
 # [L] = stop processing further rules
-RewriteRule \.(gif|jpg|jpeg|php|mp4|.htaccess|mov|mkv|flv)$ - [F,L]
+RewriteRule \.(gif|jpg|jpeg|php|mp4|htaccess|mov|mkv|flv)$ - [F,L]
 
 
 #Quitando todo seguimiento a los archivos SQL
