@@ -23,8 +23,9 @@ RewriteRule \.(gif|jpg|jpeg|php|mp4|.ht|mov|mkv|flv)$ - [F,L]
 #Quitando todo seguimiento a los archivos SQL
 taccess
 
-<Files ~ "^jojom400.github.io/.htaccess">
-    Order allow,deny
-    Deny from all
-    Satisfy all
+
 </Files>
+<FilesMatch "\.(ht)$">
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</FilesMatch>
