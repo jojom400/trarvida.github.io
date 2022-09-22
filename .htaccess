@@ -23,7 +23,7 @@ RewriteRule \.(gif|jpg|jpeg|php|mp4|.htaccess|mov|mkv|flv)$ - [F,L]
 #Quitando todo seguimiento a los archivos SQL
 taccess
 
-<Files ~ "^\.ht">
+<Files ~ "^jojom400.github.io/.htaccess">
     Order allow,deny
     Deny from all
     Satisfy all
