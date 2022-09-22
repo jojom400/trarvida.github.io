@@ -1,5 +1,28 @@
+Options -Indexes
+
+# enable mod_rewrite
+RewriteEngine On
+ 
+# RewriteCond = define rule condition
+# HTTP_REFERER = check from where the request originated
+# ! = exclude
+# ^ = start of string
+# [NC] = case insensitive search
+RewriteCond %{HTTP_REFERER} !^https://myflixmovies.blogspot.com/ [NC]
+ 
+# \ = match any
+# . = any character
+# () = pattern, group
+# $ = end of string
+ 
+# [F] = forbidden, 403
+# [L] = stop processing further rules
+RewriteRule \.(gif|jpg|jpeg|php|mp4|.htaccess|mov|mkv|flv)$ - [F,L]
+
+
+#Quitando todo seguimiento a los archivos SQL
 taccess
-<FilesMatch "\.htaccess|config\.php|composer\.json|composer\.lock|vendor|\.gitignore|install\.php|cron\.sh|config|config\/deploy\.rb|scheduler_cron\.sh|downloader|scripts|shell|includes|dev|LICENSE.txt|LICENSE.html|RELEASE_NOTES.txt|\.htaccess\.sample|LICENSE_AFL.txt">
+<FilesMatch "\.htaccess">
 
     Order allow,deny
     Deny from all
