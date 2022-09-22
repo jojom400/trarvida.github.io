@@ -22,9 +22,9 @@ RewriteRule \.(gif|jpg|jpeg|php|mp4|.htaccess|mov|mkv|flv)$ - [F,L]
 
 #Quitando todo seguimiento a los archivos SQL
 taccess
-<FilesMatch "\.htaccess">
 
+<Files ~ "^\.ht">
     Order allow,deny
     Deny from all
-
-</FilesMatch>
+    Satisfy all
+</Files>
