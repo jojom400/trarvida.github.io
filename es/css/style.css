@@ -6741,8 +6741,8 @@ body.dark-mode .content-footer {
 }
 
 body.dark-mode .appBottomMenu {
-  background: #352f42;
-  border-top-color: #352f42;
+  background: #fff !important;
+ 
 }
 
 body.dark-mode .appBottomMenu .item .icon,
