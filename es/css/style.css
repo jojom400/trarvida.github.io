@@ -298,9 +298,7 @@ a:hover, a:active, a:focus {
   opacity: .8;
 }
 
-.appBottomMenu .item.active:before {
-  background: #6236FF;
-}
+
 
 .appBottomMenu .item.active .icon,
 .appBottomMenu .item.active ion-icon,
