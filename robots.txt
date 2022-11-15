@@ -1,5 +1,2 @@
-User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-
-Sitemap: https://jojom400.github.io//wp-sitemap.xml
+User-agent: ia_archiver
+Disallow: /
