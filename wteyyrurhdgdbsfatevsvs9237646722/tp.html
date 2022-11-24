@@ -1,6 +1,4 @@
 
-
-
 <!DOCTYPE html>
 <html lang="es">
 <style type="text/css">
@@ -9,16 +7,6 @@ body {
    padding: 0;
 }
 </style>
-<script>
-function getParameterByName(name) {
-	name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
-	var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
-	results = regex.exec(location.search);
-	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-}
-var getURL = getParameterByName('get');
-var getLang = getParameterByName('lang');
-</script>
 <script src="//ssl.p.jwpcdn.com/player/v/8.21.0/jwplayer.js"></script>
 <script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
 </script>
@@ -35,9 +23,9 @@ var getLang = getParameterByName('lang');
                 {
                     "default": false,
                     "type": "dash",
-                    "file": 'https://dtvott-abc.akamaized.net/dash_live_1156/manifest.mpd',
+                    "file": 'https://edge8144.telecentro.net.ar/bpk-token/2ac@m0pxbfwd53guiylmw2iqm5odkms41nirmmn24jba/GlobalManifest.mpd',
                     "drm": {
-                        "clearkey": { "keyId": "5f789ebbb6495578b42267b650574f62", "key": "0b37b263a0aca7b08f12014b2b7b9248" }
+                        "clearkey": { "keyId": "c4e02e82e01da41b7e07a98e31e48d48", "key": "34f02ebe251891bd4595685fd89d5635" }
                     },
                     "label": "0"
                 }
@@ -54,12 +42,5 @@ autostart: true,
   					},
 			cast:{},
 			sharing: {}
-
     });
-if (getLang == "") {
-lang = 1;
-}
-jwplayer().on('play', function(e) {
-jwplayer().setCurrentAudioTrack(lang);
-});
 </script>
