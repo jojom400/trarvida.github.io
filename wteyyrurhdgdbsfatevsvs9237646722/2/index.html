@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<style type="text/css">
+body {
+   margin: 0;
+   padding: 0;
+}
+</style>
+<script src="//ssl.p.jwpcdn.com/player/v/8.21.0/jwplayer.js"></script>
+<script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</script>
+<div id="player"></div>
+<script>
+
+    var playerInstance = jwplayer("player");
+
+    playerInstance.setup({
+
+        playlist: [{
+            "title": "REPRODUCTOR",
+            "sources": [
+                {
+                    "default": false,
+                    "type": "dash",
+                    "file": 'https://tcnt3.xyz/star_jwp2.html?get=https://live-ftc-na-south-2.media.starott.com/gru1/qb01/starplus/event/2023/02/01/Montpellier_vs_PSG_20230201_1675275008057/ctr-all-complete.m3u88',
+                    "drm": {
+                        "clearkey": { "keyId": "b64d225700ce7e88186453ec9ac387e1", "key": "45a2fbf28f52ecd165bb827b9fb5bf26" }
+                    },
+                    "label": "0"
+                }
+            ]
+        }],
+        width: "100%",
+        height: "100%",
+        aspectratio: "16:9",
+autostart: true,
+			 logo: {
+ 					 file: '',
+ 					 link: '',
+  						position: 'top-right'
+  					},
+			cast:{},
+			sharing: {}
+    });
+</script>
