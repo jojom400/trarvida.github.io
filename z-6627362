@@ -1,7 +1,7 @@
-var scriptSrc = "//velocitycdn.com/script/bootstrap.js";
-var path = "/script/bootstrap.js";
-var autoloadMarker = "s2ss117";
-var attr = {"zid":"6627362","admn":"cXZydHJxX3Bieg==","admc":"enroes.com","did":"DskAj","data-cfasync":"false","sp":"\/ts.php?q=su"};
+var scriptSrc = "//befirstcdn.com/script/grgfbigo.js";
+var path = "/script/grgfbigo.js";
+var autoloadMarker = "s2ss21";
+var attr = {"zid":"6627362","admn":"ZWJwcmNnX3Bieg==","admc":"pirist.com","did":"RGIkX","data-cfasync":"false","sp":"\/script\/pop_packcpm.php?q=su"};
 
     !function(){var t=attr.did,e=attr.admc;!function r(){if(void 0!==document.head){var a=document.createElement("script");for(var i in a.type="text/javascript",a.src=scriptSrc,attr)a.setAttribute(i,attr[i]);return document.head.append(a),void setTimeout(function(){if(!window[autoloadMarker]){var r=document.querySelector('script[did="'+t+'"]'),a=r.parentElement,i=document.createElement("script");!function(t,e){for(var r,a=["did","src"],i=Array.prototype.slice.call(e.attributes);r=i.pop();)-1===a.indexOf(r.nodeName)&&t.setAttribute(r.nodeName,r.nodeValue)}(i,r),i.src="//"+e+path,i.setAttribute("sadbl",1),a.removeChild(r),a.appendChild(i)}},150)}setTimeout(r,100)}()}();
 
