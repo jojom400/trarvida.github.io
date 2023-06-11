@@ -1,42 +1,57 @@
 
-<meta name='referrer' content='no-referrer' />
-<meta name="robots" content="noindex">
-<script src="/cdn-cgi/apps/head/bdXKEs2GnhJP7BcpCR28GDM77_w.js"></script><style type="text/css">.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-playlist-btn {display: none;}</style><script src="//ssl.p.jwpcdn.com/player/v/8.0.12/jwplayer.js">
+<html lang="es">
+<head>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="referrer" content="no-referrer" />
+<style type="text/css">
+body {
+   margin: 0;
+   padding: 0;
+}
+</style>
+<script src="//ssl.p.jwpcdn.com/player/v/8.26.0/jwplayer.js"></script>
+<script> jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
 </script>
-<script>
-    jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+</head>
+<body>
+<script type="text/javascript">
+function getParameterByName(name) {
+	name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
+	var regex = new RegExp("[\?&]" + name + "=([^&#]*)"),
+	results = regex.exec(location.search);
+	return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+var get = getParameterByName('get');
+var key = getParameterByName('key');
+var key2 = getParameterByName('key2');
+var getIMG = getParameterByName('img');
 </script>
 <div id="player"></div>
-<script>
-          function getParameterByName(name) {
-              name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-              var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-                  results = regex.exec(location.search);
-              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-          }
-              var getURL  = getParameterByName('get');
-              var getLang = getParameterByName('lang');
+<script type="text/javascript">
+var playerInstance = jwplayer("player");
 
-        if (getURL == "#") {alert('Vuelve a la página anterior');}
-        if (getURL == "") {location.href="/";}
-
-      </script>
-<script>
-		var playerInstance = jwplayer("player");
-		playerInstance.setup({
-			file: getURL,
-			type: "hls",
-			width: "100%",
-			height: "100%",
-			aspectratio: "16:9",
-			autostart: true,
-			cast:{},
-			sharing: {}
-		});	
-		if (getLang == "") {
-			lang = 1;
-		}
-		jwplayer().on('play', function(e) {
-		  jwplayer().setCurrentAudioTrack(lang);
-		});
-		</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d00c840acbd1e8e","version":"2023.4.0","r":1,"token":"33c5692acac74c25aa5cebca62321147","si":100}' crossorigin="anonymous"></script>
+playerInstance.setup({
+	playlist: [{
+		"image": atob(getIMG),
+		"sources": [
+			{
+				"default": false,
+				"type": "dash",
+				"file": atob(get),
+				"drm": {
+					"clearkey": { "keyId": atob(key), "key": atob(key2) }
+				},
+				"label": "0"
+			}
+		]
+	}],
+	width: "100%",
+	height: "100%",
+	aspectratio: "16:9",
+	autostart: false,
+	cast: {},
+	sharing: {}
+});
+</script>
+</body>
