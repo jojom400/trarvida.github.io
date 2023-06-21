@@ -31,16 +31,6 @@
 </div>
 </center>
 
-<script>
-    function mostrarFechaActualizada() {
-      var fechaElemento = document.getElementById("fecha");
-      var fechaActual = new Date();
-      fechaElemento.textContent = fechaActual.toLocaleDateString("es-ES", { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-    }
-
-    setInterval(mostrarFechaActualizada, 100);
-  </script
-
 
 
 
@@ -301,6 +291,16 @@ Mundial: Catar vs. Ecuador
 	
 	});
 </script>
+
+<script>
+    function mostrarFechaActualizada() {
+      var fechaElemento = document.getElementById("fecha");
+      var fechaActual = new Date();
+      fechaElemento.textContent = fechaActual.toLocaleDateString("es-ES", { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+    }
+
+    setInterval(mostrarFechaActualizada, 100);
+  </script
 
 <br>
 
