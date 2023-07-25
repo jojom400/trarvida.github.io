@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' lang="es">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="96e0861dad07aa84fd023e01-text/javascript"></script>
+
+<link href="https://pro-staging.fontawesome.com/releases/v6.0.0-beta1/css/all.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="icon" href="//img/icono.ico" type="image/x-icon" />
+<meta name="robots" content="index,follow" />
+<link rel="stylesheet" href="//css/style.css?md4" />
+<style>
+    .btn-md{background-color:#343deb!important;border:none;color:#fff;padding:10px 26px;border-radius:12px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;cursor:pointer}    
+    .clean-gray{border:solid 1px #dedede;background:#efefef;color:#222;padding:4px;text-align:center}
+    .my-0{margin-top:0!important;margin-bottom:0!important}
+    .mr-md-auto{margin-right:auto!important}
+    .btn-warning{color:#fff;background-color:#f0ad4e;border-color:#f0ad4e}.btn-warning:hover{color:#fff;background-color:#ec971f;border-color:#eb9316}.btn-warning:focus,.btn-warning.focus{-webkit-box-shadow:0 0 0 2px rgba(240,173,78,0.5);box-shadow:0 0 0 2px rgba(240,173,78,0.5)}.btn-warning.disabled,.btn-warning:disabled{background-color:#f0ad4e;border-color:#f0ad4e}.btn-warning:active,.btn-warning.active,.show > .btn-warning.dropdown-toggle{color:#fff;background-color:#ec971f;background-image:none;border-color:#eb9316}
+    .iframe-container {
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative
+    }
+
+    .iframe-container iframe {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%
+    }
+</style>
+
+
+<script src="https://cdn.jsdelivr.net/npm/console-ban@4.1.0/dist/console-ban.min.js"></script>
+<script>
+    // default options
+    ConsoleBan.init()
+    // custom options
+    ConsoleBan.init({
+      redirect: '/'
+    })
+  </script>
+<title>VTV en VIVO |Futbollibre TV</title>
+<meta name="description" content="Ver VTV en VIVO, VTV es un canal de televisión por suscripción uruguayo de programación deportiva, fundado el 20 de enero de 2003. Transmite los partidos del fútbol uruguayo, de la selección uruguaya de fútbol, la Liga Uruguaya de Básquetbol, etc." />
+<meta name="keywords" content="VTV en vivo gratis, VTV en vivo tv, mira VTV en vivo gratis por internet, VTV en vivo, VTV, VTV online, VTV en directo, ver VTV en vivo gratis por internet gratis, ver VTV hd en vivo online, ver VTV en vivo olnine gratis, VTV en vivo online hd gratis por internet, VTV online hd por internet, ver VTV online, ver VTV en vivo,mira VTV en vivo gratis por internet, VTV en vivo, VTV, VTV online, VTV en directo, ver VTV en vivo gratis por internet gratis, ver VTV hd en vivo online, ver VTV en vivo olnine gratis, VTV en vivo online hd gratis por internet, VTV online hd por internet, ver VTV online, ver VTV en vivo, Ver VTV en vivo gratis, mira VTV en vivo gratis por internet, VTV en vivo, VTV, VTV online, VTV en directo, ver VTV en vivo gratis por internet gratis, ver VTV hd en vivo online, ver VTV en vivo olnine gratis, VTV en vivo online hd gratis por internet, VTV online hd por internet, ver VTV online, ver VTV en vivo" />
+<link rel="image_src" href="/img/VTV.webp" />
+<meta property="og:locale" content="es_UY" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Ver VTV en VIVO - Mega Deportes TV" />
+<meta property="og:description" content="Ver VTV en VIVO y en DIRECTO, VTV es un canal de televisión por suscripción uruguayo de programación deportiva, fundado el 20 de enero de 2003. Transmite los partidos del fútbol uruguayo, de la selección uruguaya de fútbol, la Liga Uruguaya de Básquetbol, etc." />
+<meta property="og:image" content="/img/VTV.webp" />
+<meta property="og:url" content="/en-vivo/gol-tv/?uy" />
+<meta property="og:site_name" content="Mega Deportes TV" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ver VTV en vivo por Internet gratis HD" />
+<meta name="twitter:image" content="/img/VTV.webp" />
+</head>
+<body class="dark-mode container" ondragstart="return false" ondrop="return false" onselectstart="return false" oncontextmenu="return false">
+<div class="w3-main w3-content w3-padding" style="max-width:1300px;margin-top:90px">
+
+<div class="appHeader bg-primary text-light">
+<div class="pageTitle">
+<div class="left">
+</div>
+<h1>Futbol Libre TV</h1>
+</div>
+</div>
+</div>
+<div class="w3-main w3-content w3-padding" style="max-width:1300px;margin-top:100px">
+<center>
+<h3>VTV en VIVO</h3>
+</center>
+<div class="embed-responsive embed-responsive-16by9" style="width: 100%; margin: auto; box-shadow: 2px 2px 8px 2px #2c2c2c; ">
+<iframe class="embed-responsive-item" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen src="/embed/repro/?r=L2xpc3RhL2NoLz9jaD12dHY=" name="iframe" id="iframe" scrolling="no" frameBorder="0" title="Reproductor 1" alt="Reproducir" allowfullscreen></iframe>
+</div><br>
+<div align="left">
+<p><strong>Opciones:</strong></p>
+<a class="btn btn-md" target="iframe" href="/embed/repro/?r=L2xpc3RhL2NoLz9jaD12dHY=">JWP (DS)</a>
+<div class="col" style="height: 225px; width: 400px; margin: 0px auto 15px !important;">
+<div id="footylight_sports24_club_one"></div>
+<div class="sharethis-inline-share-buttons"></div>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=616bdca004c9870012778d81&product=sticky-share-buttons" async="async"></script>
+<section class="pt-4 my-md-5 pt-md-5 border-top">
+<div class="row">
+<div class="col-12 col-md">
+<p align="center"><img src="/img/VTV.webp" alt="logo del canal VTV" title="VTV en vivo" width="%50" height="140" /></p>
+<p align="left"><strong>VTV en vivo</strong> VTV es un canal de televisión por suscripción uruguayo de programación deportiva, fundado el 20 de enero de 2003. Transmite los partidos del fútbol uruguayo, de la selección uruguaya de fútbol, la Liga Uruguaya de Básquetbol, etc.</p>
+</div>
+</div>
+</section>
+
+
+<!-- app footer -->
+        <div class="appFooter">
+            <div class="footer-title">
+                Futbol Libre 2023 © Todos los derechos reservados. <span class="yearNow"></span>
+            </div>
+            <div><a href="/dmca.html" rel="nofollow"> DMCA. </a></div>
+            
+        <div class="mt-2">
+                
+            </div>
+
+        </div>
+	
+
+     <!-- * app footer -->
+
+<div data-menu-load="/chat/?up"></div>
+
+
+
+   <!-- App Bottom Menu -->
+    <div class="appBottomMenu">
+        <a href="/" class="item">
+            <div class="col">
+                <ion-icon name="home-outline"></ion-icon>
+                <strong>Inicio</strong>
+            </div>
+        </a>
+        <a href="https://forms.gle/yTpp5ze5jUsLcjSJ7" class="item" data-bs-toggle="modal" data-bs-target="#chat">
+            <div class="col">
+                <ion-icon name="mail-outline"></ion-icon>
+                <strong>Contacto</strong>
+            </div>
+        </a>
+       
+       
+    </div>
+    <!-- * App Bottom Menu -->
+<script type='text/javascript'>
+<!-- Genero: ProgramasProgramacion.com
+var t="3c64697620636c6173733d22646973706c6179223e3c7363726970742069643d225f77617565756e223e766172205f776175203d205f776175207c7c205b5d3b205f7761752e70757368285b22736d616c6c222c20223072343562747475617a222c202265756e225d293b3c2f7363726970743e3c736372697074206173796e63207372633d222f2f77617573742e61742f732e6a73223e3c2f7363726970743e3c2f6469763e3c7374796c653e2e646973706c61797b646973706c61793a6e6f6e653b7d3c2f7374796c653e";for(i=0;i<t.length;i+=2){document.write(String.fromCharCode(parseInt(t.substr(i,2),16)));}
+//-->
+</script>
+    <!-- ========= JS Files =========  -->
+    <!-- Bootstrap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+</body>
+</html>
