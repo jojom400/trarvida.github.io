@@ -39,7 +39,9 @@
                      <nav id="navbarCollapse2" class="collapse navbar-collapse">
                         <hr class="d-lg-none mt-3 mb-2" />
                         <ul class="navbar-nav me-auto">
-                           <li class="nav-item"><a href="/" class="nav-link">Inicio</a></li>
+                           <li class="nav-item"><a href="#agenda" class="nav-link">Agenda</a></li>
+				<li class="nav-item"><a href="#calenlendario" class="nav-link">Calendario</a></li>
+				<li class="nav-item"><a href="#eventos" class="nav-link">Resumenes</a></li>
                           
                         </ul>
                      </nav>
@@ -63,7 +65,7 @@
                                  <p class="m-auto">Eventos - <span id="fecha"></span></p>
                               </li>
                            </ul>
-                           <div class="centerr"><iframe loading="lazy" src="/agenda/" title="agenda" class="agenda-frame"></iframe></div>
+                           <div class="centerr"><iframe loading="lazy" src="/agenda/" title="agenda"id="agenda" class="agenda-frame"></iframe></div>
                         </div>
                      </div>
                   <div id="protag-before_content"></div>
@@ -85,7 +87,8 @@
         window.protag.display("protag-in_article_video");
     });
 </script>
-<iframe allowfullscreen='true' frameborder='0' height='720' scrolling='auto' src='https://estdeportes.telam.com.ar/html/v3/index.html?channel=deportes.futbol.copaargentina&lang=es_LA' width='100%'></iframe>
+			  
+<iframe allowfullscreen='true' frameborder='0'id='calendario' height='720' scrolling='auto' src='https://estdeportes.telam.com.ar/html/v3/index.html?channel=deportes.futbol.copaargentina&lang=es_LA' width='100%'></iframe>
 <br />
 
 			    <div class="page-loading">
