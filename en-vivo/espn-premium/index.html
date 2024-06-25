@@ -14,7 +14,25 @@
 <meta property="og:site_name" content="Fútbol Libre TV" />
 <meta property="og:image" content="/img/ESPN_Premium.png" />
 <meta name="twitter:card" content="summary_large_image" />
-	
+	<script type="text/javascript">
+         function getParameterByName(name) {
+             name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+             var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                 results = regex.exec(location.search);
+             return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+         }
+          id = getParameterByName('p');
+         if(getParameterByName('embed')){
+            embed = getParameterByName('embed');
+         }else{
+            if(getParameterByName('r')){
+                embed = getParameterByName('r');
+             }else{
+                embed = false;
+         }  
+         }
+
+      </script>
 
 	<link href='/favicon.ico' rel='icon' type='image/x-icon' />
 <meta name="twitter:description" content="Fútbol Libre TV Ver ESPN Premium en VIVO ONLINE por Internet en DIRECTO. Mirar Futbol argentino en vivo" />
