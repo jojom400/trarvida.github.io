@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="robots" content="noindex" />
+
+<script type="text/javascript">
+         function getParameterByName(name) {
+             name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+             var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                 results = regex.exec(location.search);
+             return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+         }
+          id = getParameterByName('p');
+         if(getParameterByName('embed')){
+            embed = getParameterByName('embed');
+         }else{
+            if(getParameterByName('r')){
+                embed = getParameterByName('r');
+             }else{
+                embed = false;
+         }  
+         }
+
+      </script>
+
+
+<style>
+        .responsive-iframe-container {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%; 
+            margin-top: -20px; 
+           margin-bottom: -20px;
+        }
+
+        .responsive-iframe-container iframe {
+            position: absolute;
+            top:-140px;
+            left: 0;
+          bottom:150px;
+            width: 100%;
+         
+            height: 640px;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="responsive-iframe-container">
+       
+<script type="text/javascript">
+                    if (embed) {document.write('<iframe class="embed-responsive-item" frameborder="0"scrolling="no" allow="autoplay; encrypted-media" sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts" allowfullscreen src="'+atob(embed)+'" scrolling="no" frameBorder="0" allowfullscreen></iframe>');}else{document.write('<img class="embed-responsive-item" src="https://pbs.twimg.com/media/DjY2G6tV4AA5-0p.jpg" width="100%">')}
+                        </script>
+    </div></body>
+</html>
